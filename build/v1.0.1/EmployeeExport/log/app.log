@@ -1,0 +1,37 @@
+2018-12-13 18:50:11,795 | Minor FoodIT | INFO | ############# Start Running
+2018-12-13 18:50:11,795 | Minor FoodIT | INFO | Load configuration file config.ini
+2018-12-13 18:50:11,796 | Minor FoodIT | INFO | MunuLink version 12.0
+2018-12-13 18:50:11,796 | Minor FoodIT | INFO | Aloha version 12.3
+2018-12-13 18:50:11,797 | Minor FoodIT | INFO | Exporting data to E:\Aloha\BK_NEWDATA\EMP.DBF
+2018-12-13 18:50:15,612 | Minor FoodIT | INFO | Record created ,ID=332115
+2018-12-13 18:50:16,062 | Minor FoodIT | INFO | Record created ,ID=332120
+2018-12-13 18:50:16,141 | Minor FoodIT | INFO | Record created ,ID=332122
+2018-12-13 18:50:16,431 | Minor FoodIT | INFO | Record created ,ID=333606
+2018-12-13 18:50:16,519 | Minor FoodIT | INFO | Record created ,ID=333607
+2018-12-13 18:50:16,622 | Minor FoodIT | INFO | Record created ,ID=333608
+2018-12-13 18:50:16,780 | Minor FoodIT | INFO | Record created ,ID=333610
+2018-12-13 18:50:16,954 | Minor FoodIT | INFO | Record created ,ID=333611
+2018-12-13 18:50:17,071 | Minor FoodIT | INFO | Record created ,ID=333612
+2018-12-13 18:50:17,511 | Minor FoodIT | INFO | Record deleted ,ID=203631
+2018-12-13 18:50:17,536 | Minor FoodIT | INFO | Record deleted ,ID=256786
+2018-12-13 18:50:17,557 | Minor FoodIT | INFO | Record deleted ,ID=403645
+2018-12-13 18:50:17,578 | Minor FoodIT | INFO | Record deleted ,ID=404917
+2018-12-13 18:50:17,610 | Minor FoodIT | INFO | Record deleted ,ID=465375
+2018-12-13 18:50:17,635 | Minor FoodIT | INFO | Record deleted ,ID=465472
+2018-12-13 18:50:17,661 | Minor FoodIT | INFO | Record deleted ,ID=465473
+2018-12-13 18:50:17,689 | Minor FoodIT | INFO | Record deleted ,ID=465526
+2018-12-13 18:50:17,727 | Minor FoodIT | INFO | Record deleted ,ID=465544
+2018-12-13 18:50:17,750 | Minor FoodIT | INFO | Record deleted ,ID=465545
+2018-12-13 18:50:17,773 | Minor FoodIT | INFO | Record deleted ,ID=465594
+2018-12-13 18:50:17,796 | Minor FoodIT | INFO | Record deleted ,ID=404419
+2018-12-13 18:50:17,819 | Minor FoodIT | INFO | Record deleted ,ID=404564
+2018-12-13 18:50:17,841 | Minor FoodIT | INFO | Record deleted ,ID=465933
+2018-12-13 18:50:17,865 | Minor FoodIT | INFO | Record deleted ,ID=465960
+2018-12-13 18:50:17,887 | Minor FoodIT | INFO | Record deleted ,ID=465963
+2018-12-13 18:50:17,909 | Minor FoodIT | INFO | Record deleted ,ID=366544
+2018-12-13 18:50:17,925 | Minor FoodIT | INFO | Record deleted ,ID=403558
+2018-12-13 18:50:17,943 | Minor FoodIT | INFO | Record deleted ,ID=459487
+2018-12-13 18:50:17,958 | Minor FoodIT | INFO | Record deleted ,ID=460346
+2018-12-13 18:50:17,976 | Minor FoodIT | INFO | Record deleted ,ID=465262
+2018-12-13 18:50:17,989 | Minor FoodIT | INFO | Record deleted ,ID=466192
+2018-12-13 18:50:20,041 | Minor FoodIT | INFO | Finished
