@@ -1,10 +1,12 @@
 import sys
 import os
+import decimal
+import numbers
 
 import logging
 import logging.handlers as handlers
 import time
-from tkinter import Label,Button, Tk, HORIZONTAL
+from tkinter import Label,Button, Tk, HORIZONTAL ,messagebox
 from tkinter.ttk import Progressbar
 import threading
 
@@ -13,9 +15,11 @@ from minor import Configure
 from minor import MSQL
 from minor import AlohaDBF
 from minor.model import DBF
+from dbfpy import dbf ,record
 
 import json
 import pyodbc
+import configparser
 
 #Other sub class
 

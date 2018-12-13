@@ -9,7 +9,7 @@ logger.setLevel(logging.INFO)
 
 # Here we define our formatter
 formatter = logging.Formatter('%(asctime)s | %(name)s | %(levelname)s | %(message)s')
-logHandler = handlers.RotatingFileHandler('app.log', maxBytes=1000000, backupCount=10)
+logHandler = handlers.RotatingFileHandler('log\\app.log', maxBytes=1000000, backupCount=10)
 logHandler.setLevel(logging.INFO)
 logHandler.setFormatter(formatter)
 logger.addHandler(logHandler)

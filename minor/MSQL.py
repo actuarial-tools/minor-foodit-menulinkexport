@@ -1,5 +1,7 @@
 import pyodbc
 import minor.Configure
+import decimal
+import numbers
 
 class SqlDb(object):
 
