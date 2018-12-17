@@ -338,7 +338,7 @@ class MonApp(Tk):
 
                 dbfRec.showWarning("Database file updated",
                                    "The data " + str(DBF_FILE.get(
-                                       sys.argv[1:][0])) + " is updated. Please restart Aloha Manager to load updated")
+                                       sys.argv[1:][0])) + " is updated. Please refresh data in Aloha Configuration Center to load updated")
             elif menulink_ver >= 15 and aloha_ver < 12:
                 log("to be future")
             else:
