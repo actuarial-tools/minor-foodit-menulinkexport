@@ -15,7 +15,7 @@ from minor import Configure
 from minor import MSQL
 from minor import AlohaDBF
 from minor.model import DBF
-from dbfpy import dbf ,record
+from minor.dbfstore import dbf ,record
 
 import json
 import pyodbc
@@ -141,21 +141,20 @@ def getSQLConn(config):
                          , config.ConfigSectionMap("MenuLink")['password'])
     return SQLConn
 
-def loopOnDBF(cursor,openfile):
+def loopOnDBF(listOf_EmpID_Query,openfile):
     db = AlohaDBF.DbfData(openfile)
-    found = list(filter(lambda record: record[b'MIDDLENAME'][0:3] == "SSN", db))
+    found = list(filter(lambda record: record[b'MIDDLENAME'][0:3] == "SSN" or record[b'MIDDLENAME'][0:4] == "กรอก", db))
     #log("Loop employee size=" + str(len(found)))
     db.close()
     for rec in found:
         #log("Finding rec_ID " + str(rec[b'ID']))
-        foundID = list(filter(lambda ID: float(ID) == rec[b'ID'], cursor))
-        isExist = any(True for _ in foundID)
+        matchID = list(filter(lambda ID: float(ID) == rec[b'ID'], listOf_EmpID_Query))
+        #log(len(matchID))
+        isExist = any(True for _ in matchID)
+        #log(isExist)
         if not isExist:
             log("Record deleted ,ID=" + str(int(rec[b'ID'])))
             doRemove(rec[b'ID'], openfile)
-    #try:
-
-    #except (TypeError):
 
 
 def loopOnRecord(model,db):
@@ -210,7 +209,6 @@ def doRemove(id_val,openfile):
     handleDBF.loadByteArray(openfile)
     handleDBF.resetRecordCount(newRecordCount)
     handleDBF.writeToFile()
-
 
 def doCreate(model,db):
     try:
@@ -311,8 +309,9 @@ class MonApp(Tk):
         def main_run(argv):
             # log("Original file record size is "+str(dbfRec.record_count()))
             if menulink_ver <= 15 and aloha_ver >= 12:
-                # Check exist from query to file
                 conn = SQLConn.createConn()
+                # Check exist from query to file
+
                 cursor = SQLConn.getEmpData(conn, site_number)
                 for row in cursor:
                     empQuery = DBF.Emp(row)
@@ -362,6 +361,12 @@ if __name__ == "__main__":
         filename = newdata_location + "\\" + str(DBF_FILE.get(sys.argv[1:][0]))
         log("Exporting data to " + filename)
         dbfRec = AlohaDBF.DbfData(filename)
+        """
+        for i in dbfRec.field_names():
+            name = str(i)
+            log(name+":"+str(dbfRec[10][i]))
+        #log(dbfRec.printInfo())
+        """
 
         # List field
         byte_field_name = dbfRec.field_names()
@@ -379,7 +384,6 @@ if __name__ == "__main__":
 
     app = MonApp(sys.argv[1:])
     app.mainloop()
-    #app.quit()
 
     #main(sys.argv[1:])
     log("Finished")
