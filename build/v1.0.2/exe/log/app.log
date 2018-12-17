@@ -5,3 +5,57 @@
 2018-12-17 14:12:34,847 | Minor FoodIT | INFO | MunuLink version 12.0
 2018-12-17 14:12:34,847 | Minor FoodIT | INFO | Aloha version 12.3
 2018-12-17 14:12:34,847 | Minor FoodIT | INFO | Exporting data to E:\Aloha\BK_NEWDATA\EMP.DBF
+2018-12-17 14:13:19,086 | Minor FoodIT | INFO | ############# Start Running
+2018-12-17 14:13:19,086 | Minor FoodIT | INFO | Load configuration file config.ini
+2018-12-17 14:13:19,086 | Minor FoodIT | INFO | MunuLink version 12.0
+2018-12-17 14:13:19,086 | Minor FoodIT | INFO | Aloha version 12.3
+2018-12-17 14:13:19,086 | Minor FoodIT | INFO | Exporting data to E:\Aloha\BK_NEWDATA\EMP.DBF
+2018-12-17 14:13:26,390 | Minor FoodIT | INFO | Record created ,ID=332115
+2018-12-17 14:13:28,414 | Minor FoodIT | INFO | Record created ,ID=332120
+2018-12-17 14:13:29,303 | Minor FoodIT | INFO | Record created ,ID=332122
+2018-12-17 14:13:30,005 | Minor FoodIT | INFO | Record created ,ID=333606
+2018-12-17 14:13:30,801 | Minor FoodIT | INFO | Record created ,ID=333607
+2018-12-17 14:13:31,739 | Minor FoodIT | INFO | Record created ,ID=333608
+2018-12-17 14:13:32,551 | Minor FoodIT | INFO | Record created ,ID=333610
+2018-12-17 14:13:33,331 | Minor FoodIT | INFO | Record created ,ID=333611
+2018-12-17 14:13:34,017 | Minor FoodIT | INFO | Record created ,ID=333612
+2018-12-17 14:13:34,688 | Minor FoodIT | INFO | Record deleted ,ID=203631
+2018-12-17 14:13:34,735 | Minor FoodIT | INFO | Record deleted ,ID=256786
+2018-12-17 14:13:34,781 | Minor FoodIT | INFO | Record deleted ,ID=403645
+2018-12-17 14:13:34,828 | Minor FoodIT | INFO | Record deleted ,ID=404917
+2018-12-17 14:13:34,875 | Minor FoodIT | INFO | Record deleted ,ID=465375
+2018-12-17 14:13:34,922 | Minor FoodIT | INFO | Record deleted ,ID=465472
+2018-12-17 14:13:34,984 | Minor FoodIT | INFO | Record deleted ,ID=465473
+2018-12-17 14:13:35,015 | Minor FoodIT | INFO | Record deleted ,ID=465526
+2018-12-17 14:13:35,062 | Minor FoodIT | INFO | Record deleted ,ID=465544
+2018-12-17 14:13:35,093 | Minor FoodIT | INFO | Record deleted ,ID=465545
+2018-12-17 14:13:35,156 | Minor FoodIT | INFO | Record deleted ,ID=465594
+2018-12-17 14:13:35,187 | Minor FoodIT | INFO | Record deleted ,ID=404419
+2018-12-17 14:13:35,218 | Minor FoodIT | INFO | Record deleted ,ID=404564
+2018-12-17 14:13:35,249 | Minor FoodIT | INFO | Record deleted ,ID=465933
+2018-12-17 14:13:35,281 | Minor FoodIT | INFO | Record deleted ,ID=465960
+2018-12-17 14:13:35,327 | Minor FoodIT | INFO | Record deleted ,ID=465963
+2018-12-17 14:13:35,359 | Minor FoodIT | INFO | Record deleted ,ID=366544
+2018-12-17 14:13:35,390 | Minor FoodIT | INFO | Record deleted ,ID=403558
+2018-12-17 14:13:35,437 | Minor FoodIT | INFO | Record deleted ,ID=459487
+2018-12-17 14:13:35,483 | Minor FoodIT | INFO | Record deleted ,ID=460346
+2018-12-17 14:13:35,530 | Minor FoodIT | INFO | Record deleted ,ID=465262
+2018-12-17 15:18:25,129 | Minor FoodIT | INFO | Finished
+2018-12-17 16:00:01,498 | Minor FoodIT | INFO | ############# Start Running
+2018-12-17 16:00:01,498 | Minor FoodIT | INFO | Load configuration file config.ini
+2018-12-17 16:00:01,498 | Minor FoodIT | INFO | MunuLink version 12.0
+2018-12-17 16:00:01,498 | Minor FoodIT | INFO | Aloha version 12.3
+2018-12-17 16:00:01,498 | Minor FoodIT | INFO | Exporting data to E:\Aloha\BK_NEWDATA\EMP.DBF
+2018-12-17 16:00:01,498 | Minor FoodIT | INFO | The DBF File is not found
+2018-12-17 16:00:23,888 | Minor FoodIT | INFO | ############# Start Running
+2018-12-17 16:00:23,888 | Minor FoodIT | INFO | Load configuration file config.ini
+2018-12-17 16:00:23,888 | Minor FoodIT | INFO | MunuLink version 12.0
+2018-12-17 16:00:23,888 | Minor FoodIT | INFO | Aloha version 12.3
+2018-12-17 16:00:23,888 | Minor FoodIT | INFO | Exporting data to E:\Aloha\BK_NEWDATA\EMP.DBF
+2018-12-17 16:00:23,888 | Minor FoodIT | INFO | The DBF File is not found
+2018-12-17 16:01:57,994 | Minor FoodIT | INFO | ############# Start Running
+2018-12-17 16:01:57,994 | Minor FoodIT | INFO | Load configuration file config.ini
+2018-12-17 16:01:57,994 | Minor FoodIT | INFO | MunuLink version 12.0
+2018-12-17 16:01:57,994 | Minor FoodIT | INFO | Aloha version 12.3
+2018-12-17 16:01:57,994 | Minor FoodIT | INFO | Exporting data to E:\Aloha\BK_NEWDATA\EMP.DBF
+2018-12-17 16:02:04,842 | Minor FoodIT | INFO | Finished
