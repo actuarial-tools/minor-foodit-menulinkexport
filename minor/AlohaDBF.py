@@ -1,14 +1,15 @@
 import binascii
 import tkinter
 from tkinter import messagebox
-from dbfpy import dbf ,record
+#from dbfpy import dbf ,record
+from . import dbfstore
 
 class DbfData(object):
     __slots__ = ("dbf", "name")
 
     def __init__(self, file=None):
         self.name = file
-        self.dbf = dbf.Dbf(file)
+        self.dbf = dbfstore.dbf.Dbf(file)
 
     def __getitem__(self, index):
         if self.dbf is not None:
@@ -111,7 +112,9 @@ class DbfData(object):
         # hide main window
         root = tkinter.Tk()
         root.withdraw()
-        messagebox.showwarning("Warning"+' '+titleText, str(messageText))
+        #dont show message
+        #messagebox.showwarning("Warning"+' '+titleText, str(messageText))
+        root.destroy()
 
 
 

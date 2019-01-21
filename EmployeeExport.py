@@ -252,9 +252,12 @@ def doUpdateJOBCode(model):
     connProp = SQLConn.createConn()
     cursorProp = SQLConn.getEmpProperty(model.HOMESITE_NUMBER,model.EMPLOYEE_NUMBER,connProp)
     for idx,row in enumerate(cursorProp):
-        model.dict_rec[JOBCODE[idx]] = row[3]
-        model.dict_rec[PAYRATE[idx]] = row[4]
-        model.dict_rec[ACCESS[idx]]  = row[9]
+        if idx <= 9:
+            model.dict_rec[JOBCODE[idx]] = row[3]
+            model.dict_rec[PAYRATE[idx]] = row[4]
+            model.dict_rec[ACCESS[idx]]  = row[9]
+        else:
+            break
 
 def doUpdateStatus(model):
     connStatus = SQLConn.createConn()

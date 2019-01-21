@@ -1,0 +1,5 @@
+.idea
+__pycache__
+minor/*.pyc
+minor/*/__pycache__
+minor/*/*.pyc
